@@ -1,7 +1,7 @@
 import unittest
 import os
 import json
-from app.requests.views import create_app, db
+from app.orders.views import create_app, db
 
 class OrderTestCase(unittest.TestCase):
     """This class represents the order test case"""
